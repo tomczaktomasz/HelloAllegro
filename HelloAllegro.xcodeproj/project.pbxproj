@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8D58871ECBA0CC0092B0A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D58861ECBA0CC0092B0A3 /* AppDelegate.swift */; };
+		7E8D58891ECBA0CC0092B0A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D58881ECBA0CC0092B0A3 /* ViewController.swift */; };
+		7E8D588C1ECBA0CC0092B0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D588A1ECBA0CC0092B0A3 /* Main.storyboard */; };
+		7E8D588E1ECBA0CC0092B0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D588D1ECBA0CC0092B0A3 /* Assets.xcassets */; };
+		7E8D58911ECBA0CC0092B0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D588F1ECBA0CC0092B0A3 /* LaunchScreen.storyboard */; };
+		7E8D589C1ECBA0CC0092B0A3 /* HelloAllegroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D589B1ECBA0CC0092B0A3 /* HelloAllegroTests.swift */; };
+		7E8D58A71ECBA0CC0092B0A3 /* HelloAllegroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D58A61ECBA0CC0092B0A3 /* HelloAllegroUITests.swift */; };
+		7E8D58B51ECC6FA70092B0A3 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D58B41ECC6FA70092B0A3 /* AboutMe.swift */; };
+		7E8D58B71ECC9CAE0092B0A3 /* EducationProjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D58B61ECC9CAE0092B0A3 /* EducationProjects.swift */; };
+		7E8D58B91ECC9D4C0092B0A3 /* PastTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D58B81ECC9D4C0092B0A3 /* PastTime.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8D58981ECBA0CC0092B0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8D587B1ECBA0CC0092B0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8D58821ECBA0CC0092B0A3;
+			remoteInfo = HelloAllegro;
+		};
+		7E8D58A31ECBA0CC0092B0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8D587B1ECBA0CC0092B0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8D58821ECBA0CC0092B0A3;
+			remoteInfo = HelloAllegro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E8D58831ECBA0CC0092B0A3 /* HelloAllegro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAllegro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8D58861ECBA0CC0092B0A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E8D58881ECBA0CC0092B0A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E8D588B1ECBA0CC0092B0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E8D588D1ECBA0CC0092B0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8D58901ECBA0CC0092B0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E8D58921ECBA0CC0092B0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8D58971ECBA0CC0092B0A3 /* HelloAllegroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAllegroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8D589B1ECBA0CC0092B0A3 /* HelloAllegroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAllegroTests.swift; sourceTree = "<group>"; };
+		7E8D589D1ECBA0CC0092B0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8D58A21ECBA0CC0092B0A3 /* HelloAllegroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAllegroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8D58A61ECBA0CC0092B0A3 /* HelloAllegroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAllegroUITests.swift; sourceTree = "<group>"; };
+		7E8D58A81ECBA0CC0092B0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8D58B41ECC6FA70092B0A3 /* AboutMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		7E8D58B61ECC9CAE0092B0A3 /* EducationProjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationProjects.swift; sourceTree = "<group>"; };
+		7E8D58B81ECC9D4C0092B0A3 /* PastTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastTime.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8D58801ECBA0CC0092B0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8D58941ECBA0CC0092B0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8D589F1ECBA0CC0092B0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8D587A1ECBA0CB0092B0A3 = {
+			isa = PBXGroup;
+			children = (
+				7E8D58851ECBA0CC0092B0A3 /* HelloAllegro */,
+				7E8D589A1ECBA0CC0092B0A3 /* HelloAllegroTests */,
+				7E8D58A51ECBA0CC0092B0A3 /* HelloAllegroUITests */,
+				7E8D58841ECBA0CC0092B0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8D58841ECBA0CC0092B0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8D58831ECBA0CC0092B0A3 /* HelloAllegro.app */,
+				7E8D58971ECBA0CC0092B0A3 /* HelloAllegroTests.xctest */,
+				7E8D58A21ECBA0CC0092B0A3 /* HelloAllegroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8D58851ECBA0CC0092B0A3 /* HelloAllegro */ = {
+			isa = PBXGroup;
+			children = (
+				7E8D58861ECBA0CC0092B0A3 /* AppDelegate.swift */,
+				7E8D58B61ECC9CAE0092B0A3 /* EducationProjects.swift */,
+				7E8D58881ECBA0CC0092B0A3 /* ViewController.swift */,
+				7E8D58B41ECC6FA70092B0A3 /* AboutMe.swift */,
+				7E8D588A1ECBA0CC0092B0A3 /* Main.storyboard */,
+				7E8D588D1ECBA0CC0092B0A3 /* Assets.xcassets */,
+				7E8D588F1ECBA0CC0092B0A3 /* LaunchScreen.storyboard */,
+				7E8D58921ECBA0CC0092B0A3 /* Info.plist */,
+				7E8D58B81ECC9D4C0092B0A3 /* PastTime.swift */,
+			);
+			path = HelloAllegro;
+			sourceTree = "<group>";
+		};
+		7E8D589A1ECBA0CC0092B0A3 /* HelloAllegroTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8D589B1ECBA0CC0092B0A3 /* HelloAllegroTests.swift */,
+				7E8D589D1ECBA0CC0092B0A3 /* Info.plist */,
+			);
+			path = HelloAllegroTests;
+			sourceTree = "<group>";
+		};
+		7E8D58A51ECBA0CC0092B0A3 /* HelloAllegroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8D58A61ECBA0CC0092B0A3 /* HelloAllegroUITests.swift */,
+				7E8D58A81ECBA0CC0092B0A3 /* Info.plist */,
+			);
+			path = HelloAllegroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E8D58821ECBA0CC0092B0A3 /* HelloAllegro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8D58AB1ECBA0CC0092B0A3 /* Build configuration list for PBXNativeTarget "HelloAllegro" */;
+			buildPhases = (
+				7E8D587F1ECBA0CC0092B0A3 /* Sources */,
+				7E8D58801ECBA0CC0092B0A3 /* Frameworks */,
+				7E8D58811ECBA0CC0092B0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAllegro;
+			productName = HelloAllegro;
+			productReference = 7E8D58831ECBA0CC0092B0A3 /* HelloAllegro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E8D58961ECBA0CC0092B0A3 /* HelloAllegroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8D58AE1ECBA0CC0092B0A3 /* Build configuration list for PBXNativeTarget "HelloAllegroTests" */;
+			buildPhases = (
+				7E8D58931ECBA0CC0092B0A3 /* Sources */,
+				7E8D58941ECBA0CC0092B0A3 /* Frameworks */,
+				7E8D58951ECBA0CC0092B0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8D58991ECBA0CC0092B0A3 /* PBXTargetDependency */,
+			);
+			name = HelloAllegroTests;
+			productName = HelloAllegroTests;
+			productReference = 7E8D58971ECBA0CC0092B0A3 /* HelloAllegroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E8D58A11ECBA0CC0092B0A3 /* HelloAllegroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8D58B11ECBA0CC0092B0A3 /* Build configuration list for PBXNativeTarget "HelloAllegroUITests" */;
+			buildPhases = (
+				7E8D589E1ECBA0CC0092B0A3 /* Sources */,
+				7E8D589F1ECBA0CC0092B0A3 /* Frameworks */,
+				7E8D58A01ECBA0CC0092B0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8D58A41ECBA0CC0092B0A3 /* PBXTargetDependency */,
+			);
+			name = HelloAllegroUITests;
+			productName = HelloAllegroUITests;
+			productReference = 7E8D58A21ECBA0CC0092B0A3 /* HelloAllegroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8D587B1ECBA0CC0092B0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tomasz Tomczak";
+				TargetAttributes = {
+					7E8D58821ECBA0CC0092B0A3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7E8D58961ECBA0CC0092B0A3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E8D58821ECBA0CC0092B0A3;
+					};
+					7E8D58A11ECBA0CC0092B0A3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E8D58821ECBA0CC0092B0A3;
+					};
+				};
+			};
+			buildConfigurationList = 7E8D587E1ECBA0CC0092B0A3 /* Build configuration list for PBXProject "HelloAllegro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E8D587A1ECBA0CB0092B0A3;
+			productRefGroup = 7E8D58841ECBA0CC0092B0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8D58821ECBA0CC0092B0A3 /* HelloAllegro */,
+				7E8D58961ECBA0CC0092B0A3 /* HelloAllegroTests */,
+				7E8D58A11ECBA0CC0092B0A3 /* HelloAllegroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E8D58811ECBA0CC0092B0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8D58911ECBA0CC0092B0A3 /* LaunchScreen.storyboard in Resources */,
+				7E8D588E1ECBA0CC0092B0A3 /* Assets.xcassets in Resources */,
+				7E8D588C1ECBA0CC0092B0A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8D58951ECBA0CC0092B0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8D58A01ECBA0CC0092B0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8D587F1ECBA0CC0092B0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8D58B71ECC9CAE0092B0A3 /* EducationProjects.swift in Sources */,
+				7E8D58891ECBA0CC0092B0A3 /* ViewController.swift in Sources */,
+				7E8D58B91ECC9D4C0092B0A3 /* PastTime.swift in Sources */,
+				7E8D58B51ECC6FA70092B0A3 /* AboutMe.swift in Sources */,
+				7E8D58871ECBA0CC0092B0A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8D58931ECBA0CC0092B0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8D589C1ECBA0CC0092B0A3 /* HelloAllegroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8D589E1ECBA0CC0092B0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8D58A71ECBA0CC0092B0A3 /* HelloAllegroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E8D58991ECBA0CC0092B0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8D58821ECBA0CC0092B0A3 /* HelloAllegro */;
+			targetProxy = 7E8D58981ECBA0CC0092B0A3 /* PBXContainerItemProxy */;
+		};
+		7E8D58A41ECBA0CC0092B0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8D58821ECBA0CC0092B0A3 /* HelloAllegro */;
+			targetProxy = 7E8D58A31ECBA0CC0092B0A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E8D588A1ECBA0CC0092B0A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8D588B1ECBA0CC0092B0A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E8D588F1ECBA0CC0092B0A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8D58901ECBA0CC0092B0A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E8D58A91ECBA0CC0092B0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E8D58AA1ECBA0CC0092B0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E8D58AC1ECBA0CC0092B0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloAllegro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveloperiOS.HelloAllegro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E8D58AD1ECBA0CC0092B0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloAllegro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveloperiOS.HelloAllegro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E8D58AF1ECBA0CC0092B0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloAllegroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveloperiOS.HelloAllegroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAllegro.app/HelloAllegro";
+			};
+			name = Debug;
+		};
+		7E8D58B01ECBA0CC0092B0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloAllegroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveloperiOS.HelloAllegroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloAllegro.app/HelloAllegro";
+			};
+			name = Release;
+		};
+		7E8D58B21ECBA0CC0092B0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloAllegroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveloperiOS.HelloAllegroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloAllegro;
+			};
+			name = Debug;
+		};
+		7E8D58B31ECBA0CC0092B0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloAllegroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeveloperiOS.HelloAllegroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloAllegro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8D587E1ECBA0CC0092B0A3 /* Build configuration list for PBXProject "HelloAllegro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8D58A91ECBA0CC0092B0A3 /* Debug */,
+				7E8D58AA1ECBA0CC0092B0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8D58AB1ECBA0CC0092B0A3 /* Build configuration list for PBXNativeTarget "HelloAllegro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8D58AC1ECBA0CC0092B0A3 /* Debug */,
+				7E8D58AD1ECBA0CC0092B0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8D58AE1ECBA0CC0092B0A3 /* Build configuration list for PBXNativeTarget "HelloAllegroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8D58AF1ECBA0CC0092B0A3 /* Debug */,
+				7E8D58B01ECBA0CC0092B0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8D58B11ECBA0CC0092B0A3 /* Build configuration list for PBXNativeTarget "HelloAllegroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8D58B21ECBA0CC0092B0A3 /* Debug */,
+				7E8D58B31ECBA0CC0092B0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8D587B1ECBA0CC0092B0A3 /* Project object */;
+}
